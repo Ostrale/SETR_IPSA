@@ -6,7 +6,7 @@ int main()
     int temps = -1;
     while (1)
     {
-        if (clock()/1000000 > temps){
+        if (clock()/CLOCKS_PER_SEC > temps){
             temps = clock()/1000000;
             printf("Temps: %d\n", temps);
         }
