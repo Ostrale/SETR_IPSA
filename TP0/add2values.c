@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int sum(int a, int b)
+{
+    return a + b;
+}
+
 int main(int argc, char *argv[])
 {
     int a, b, result;
@@ -11,7 +16,6 @@ int main(int argc, char *argv[])
     }
     a = atoi(argv[1]);
     b = atoi(argv[2]);
-    result = a + b;
-    printf("%d + %d = %d\n", a, b, result);
+    printf("%d + %d = %d\n", a, b, sum(a, b));
     return 0;
 }
