@@ -71,21 +71,25 @@ $$ WCET_i \geq k \times WCET_{max_i} $$
 Let's apply this formula to our current results for each task:
 
 WCET Task 1:
+
 $$ T_1 \geq 1.5 \times 4.0 \, \text{ms} $$
 
 $$ WCET_1 \geq 6.0 \, \text{ms} $$
 
 WCET Task 2:
+
 $$ WCET_2 \geq 1.5 \times 4.0 \, \text{ms} $$
 
 $$ WCET_2 \geq 6.0 \, \text{ms} $$
 
 WCET Task 3:
+
 $$ WCET_3 \geq 1.5 \times 4.0 \, \text{ms} $$
 
 $$ WCET_3 \geq 6.0 \, \text{ms} $$
 
 WCET Task 4:
+
 $$ WCET_4 \geq 1.5 \times 6.0 \, \text{ms} $$
 
 $$ WCET_4 \geq 9.0 \, \text{ms} $$
