@@ -159,7 +159,7 @@ After calculation, the condition is met, indicating that the system is potential
 | 3    | 6.0 ms | 30.0 ms | 2 |
 | 4    | 9.0 ms | 45.0 ms | 3 |
 
-We have a total period of 72.0 ms.
+We have a total period of 90.0 ms.
 
 We have set : configUSE_PREEMPTION to 1 in FreeRTOSConfig.h so we can use the preemption.
 
